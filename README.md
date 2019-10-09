@@ -7,4 +7,4 @@ Usage: `./gitit.py <file>`
 
 You can run it from a .git/objects directory like so, to dump everything:
 
-`for i in \`find . -type f\`; do /path/to/gitit.py $i; done`
+`for i in ``find . -type f``; do /path/to/gitit.py $i; done`
